@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Image Gallary</title>
+  </head>
+  <body>
+    <div class="filttering-btns sticky-top p-2 ps-5 bg-body-secondary">
+      <button
+        data-category="all"
+        type="button"
+        class="filtering-btn btn btn-outline-secondary fw-bold"
+      >
+        All
+      </button>
+      <button
+        data-category="nature"
+        type="button"
+        class="filtering-btn btn btn-outline-secondary fw-bold"
+      >
+        Nature
+      </button>
+      <button
+        data-category="car"
+        type="button"
+        class="filtering-btn btn btn-outline-secondary fw-bold"
+      >
+        Cars
+      </button>
+      <button
+        data-category="people"
+        type="button"
+        class="filtering-btn btn btn-outline-secondary fw-bold"
+      >
+        People
+      </button>
+    </div>
+    <div class="container mt-3">
+        <h1 id="filter-title"></h1>
+      <div class="image-container gap-3">
+        <div
+          data-category="car"
+          class="card shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/Lamborghini Hurucán.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Lamborghini Hurucán</h5>
+            <p>Modle: 2015-2023</p>
+            <p class="card-text">
+              No matter which version of the Lamborghini Huracán you prefer,
+              you're getting a naturally aspirated 5.2 V-10 that can make up to
+              631 hp. Whether you want to set a Nürburgring lap record or leave
+              your Raptor-driving friends in the dust, there's a mid-engine
+              Italian supercar for you.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+              
+          </div>
+          
+        </div>
+        <div
+          data-category="people"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/michael_jackson_dangerous_world_tour_1993-1.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="michael_jackson_dangerous_world_tour_1993-1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Michael Jackson</h5>
+            <p class="card-text">
+              He is by far the most famous Michael that ever lived and was even
+              nicknamed the King of Pop....
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+        </div>
+        
+        <div
+          data-category="nature"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/maldives-500x333.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="Maldives"
+          />
+          <div class="card-body">
+            <h5 class="card-title">MALDIVES</h5>
+            <p>Location: Maldives</p>
+            <p class="card-text">
+              Unique Features: The Maldives has Coralline beaches where white
+              sand with fine texture made Maldives islands extremely important
+              for tourists. These kinds of beaches with shallow and clear water
+              are rare in the world.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+          
+        </div>
+        <div
+          data-category="car"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/audi.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Audi R8</h5>
+            <p>Modle: 2009-2023</p>
+            <p class="card-text">
+              Not long after the R8 came out, Audi introduced the 5.2 liter V10
+              version, an engine also based off of Lamborghini's Gallardo
+              LP560-4. Performance was impressive: 525 bhp and 391 lb.-ft. of
+              torque. Now, the top-level R8 makes an incredible 602 hp.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+          
+        </div>
+        <div
+          data-category="people"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/michael_b._jordan_cannes_2018 (1).jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="michael_jackson_dangerous_world_tour_1993-1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Michael B. Jordan</h5>
+            <p class="card-text">
+              The American producer, director and actor was born in 1987 in
+              California.....
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+        </div>
+        
+        <div
+          data-category="nature"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/pamukkale-Turkey-500x375.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="Maldives"
+          />
+          <div class="card-body">
+            <h5 class="card-title">PAMUKKULE</h5>
+            <p>Location: Pamukkule – Denizli – Turkey</p>
+            <p class="card-text">
+              Unique Features: Pamukkule is regarded as a cotton castle because
+              from a distance this place gives such looks. This place has small
+              pouring white pools filled with turquoise water and walled by
+              limestone.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+          
+        </div>
+        <div
+          data-category="car"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/bmw-m5_2005_1600x1200_wallpaper_02.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">BMW M5</h5>
+            <p>Modle: 2006-2010</p>
+            <p class="card-text">
+              The mid-2000s was an age where carmakers could slap big engines
+              into big sedans and no one complained. The 2006 M5 is the product
+              of such a sentiment. Bellowing up to a redline of 8250 rpm, the
+              5.0 liter, F1-inspired V-10 produced 500 hp and 380 lb-ft of
+              torque.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+              
+          </div>
+          
+        </div>
+        <div
+          data-category="people"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/michael_douglas_cesar_2016_3.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="michael_jackson_dangerous_world_tour_1993-1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Michael Douglas</h5>
+            <p class="card-text">
+              The American actor has more than fifty years in the field of film,
+              theatre and television.....
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+        </div>
+        
+        <div
+          data-category="nature"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/Antelope-Canyon-Arizona-US-500x218.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="Maldives"
+          />
+          <div class="card-body">
+            <h5 class="card-title">ANTELOPE CANYON</h5>
+            <p>Location: Antelope Canyon – Arizona – USA</p>
+            <p class="card-text">
+              Unique Features: The structure of Antelope canyon makes it quite
+              attractive for photographers and tourists. There are curves and
+              wave-like marks on the Canyons. It is said that the canyon has
+              such a shape due to flowing water in the past.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+          
+        </div>
+        <div
+          data-category="car"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/screen-shot-2023-04-28-at-3-46-17-pm-644c22925047a.png"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">BMW M6</h5>
+            <p>Modle: 2006-2010</p>
+            <p class="card-text">
+              The M5 wasn't the only BMW M car to receive that magnificent
+              5.0-liter V-10 power plant. The big-boy two-door M6 got the same
+              powertrain, paired to either a seven-speed single-clutch automated
+              manual or a traditional six-speed.
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+          
+        </div>
+        <div
+          data-category="people"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/mike_bloomberg_headshot.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="michael_jackson_dangerous_world_tour_1993-1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Michael Bloomberg</h5>
+            <p class="card-text">
+              Michael Bloomberg is an influential politician and businessman
+              from the United States of America......
+            </p>
+        <div class="mb-3">
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+          </div>
+          
+        </div>
+        
+        <div
+          data-category="nature"
+          class="card  shadow-sm bg-body-tertiary rounded"
+        >
+          <img
+            src="./assets/Danxia-Landforms-China-500x333.jpg"
+            class="img-thumbnail card-img-top mt-3 border rounded"
+            alt="Maldives"
+          />
+          <div class="card-body">
+            <h5 class="card-title">DANXIA LANDFORMS</h5>
+            <p>Location: China</p>
+            <p class="card-text">
+              Unique Features: In China, there are at least six places that have
+              such landforms; all places are mentioned in the location section.
+              Danxia landforms are orful rocks that vary in size and height.
+              These unique landforms are the product of ancient events and are
+              mostly created by sandstone deposits.
+            </p>
+            
+          </div>
+          
+        </div> 
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
