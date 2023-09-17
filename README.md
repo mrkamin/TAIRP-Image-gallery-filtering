@@ -144,3 +144,10 @@ I would like to thank [Tech-A-Intern](https://techaintern.com) for provideing th
 This project is [MIT](https://github.com/mrkamin/TAIRP-Image-gallery-filtering/blob/Dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 Note Source Data <a name="license"></a>
+https://www.roadandtrack.com/car-culture/g6404/nine-of-the-greatest-modern-v10-cars/?slide=5
+https://www.discoverwalks.com/blog/world/15-most-famous-people-named-michael/
+https://www.envpk.com/12-incredibly-beautiful-natural-places-in-world-in-pictures/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
