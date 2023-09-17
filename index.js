@@ -9,7 +9,7 @@ filteringButtons.forEach((button) => {
 
     // Set the filter title based on the selected category
     if (category === 'all') {
-      filterTitle.textContent = 'All';
+      filterTitle.textContent = '';
     } else if (category === 'car') {
       filterTitle.textContent = 'The Greatest V-10-Powered Cars Ever Made';
     } else if (category === 'people') {
