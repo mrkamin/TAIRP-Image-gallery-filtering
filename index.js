@@ -1,7 +1,6 @@
 // Add an event listener to each filtering button
-const filteringButtons = document.querySelectorAll('.filtering-btn');
-const cards = document.querySelectorAll('.card');
-const filterTitle = document.getElementById('filter-title');
+/* eslint-disable import/extensions */
+import { cards, filterTitle, filteringButtons } from './modules/variables.js';
 
 filteringButtons.forEach((button) => {
   button.addEventListener('click', () => {
@@ -9,7 +8,7 @@ filteringButtons.forEach((button) => {
 
     // Set the filter title based on the selected category
     if (category === 'all') {
-      filterTitle.textContent = 'All';
+      filterTitle.textContent = '';
     } else if (category === 'car') {
       filterTitle.textContent = 'The Greatest V-10-Powered Cars Ever Made';
     } else if (category === 'people') {

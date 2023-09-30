@@ -8,3 +8,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+@media screen and (max-width: 1024px) {
+  .image-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-container {
+    grid-template-columns: 1fr;
+  }
+}
